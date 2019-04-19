@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d74b8187d8084af4d8a413630d4ec4ad, type: 3}
+  m_Name: SonarProjectile_Default
+  m_EditorClassIdentifier: 
+  sonarKey: 32
+  sonarCooldown: 3
+  sonarOffset: 2
+  moveSpeed: 10
+  scaleStart: 1
+  scaleSpeed: 5
+  sonarColor: {r: 0.4982699, g: 0.72125053, b: 0.9411765, a: 1}
+  sonarIntensity: 1
+  sonarRange: 5
+  cullingMask:
+    serializedVersion: 2
+    m_Bits: 4294966015
+  remnantColor: {r: 0.4982699, g: 0.72125053, b: 0.9411765, a: 1}
+  remnantIntensity: 3
+  remnantLightRange: 5
+  fadeDuration: 3
